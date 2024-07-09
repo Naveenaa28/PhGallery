@@ -14,7 +14,6 @@ const App = () => {
 
   return (
     <div>
-      <h1>Drag & drop some files here, or click to select files</h1>
       <ImageUploader onUpload={handleUpload} />
       <ul>
         {files.map((file, index) => (
